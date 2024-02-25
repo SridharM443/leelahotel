@@ -1,0 +1,79 @@
+.sri{
+  height: 100vh;
+  width: 100%;
+  background-image: url(imag/homepage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.name{
+  color: aliceblue;
+  font-size: 28px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: #ea1538;
+  transition: .3s;
+}
+.menu{
+  border-radius: 1em;
+  position: relative;
+  color: aliceblue;
+  background: linear-gradient(90deg,#0162cB,#55e7fc);
+  font-size: 0.5cm;
+  letter-spacing: 0.1cm;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  text-align: center;
+  margin-right: 30px;
+  max-width: 90%;
+  font-family:  'Exo', sans-serif;
+  padding-bottom : 7px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: none;
+  cursor: pointer;
+
+}
+.menu:active {
+  transform: scale(0.96)
+}
+
+
+.btn{
+  top: 80%;
+  left: 45%;
+  position: absolute;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.right-para{
+  font-size: medium;
+  font-weight: 200;
+  color: aliceblue;
+}
+.right{
+  position: absolute;
+  margin-top: 30%;
+}
